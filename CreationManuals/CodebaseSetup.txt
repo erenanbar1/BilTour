@@ -1,0 +1,14 @@
+
+This manual explains how to download and use the codebase for the first time.
+
+_____________________________________________________________________________________________________
+
+- Fetch the code from the GitHub repo onto your computer.
+
+- Run the following code in your terminal on the base directory
+pip install --upgrade pip
+pip install -r requirements.txt
+
+- Go to and follow the DatabaseSetup.txt manual
+
+- To run the system go to the RunningTheSystem.txt manual

@@ -1,0 +1,12 @@
+
+This manual explains how to run the system after it has been initiated by the CodebaseSetup.txt document.
+
+_____________________________________________________________________________________________________
+
+- Run the following code in your base directory:
+python api/manage.py runserver
+
+- Run the following codes in your client directory:
+npm run build
+
+npm run dev
