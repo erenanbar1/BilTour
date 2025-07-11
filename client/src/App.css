@@ -1,0 +1,82 @@
+
+/* Center the form in the middle of the page */
+.text-center {
+    text-align: center;
+}
+
+/* Centering the login form both horizontally and vertically */
+.m-5-auto {
+    margin: 5% auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #444; /* Darker border to match the dark theme */
+    border-radius: 8px;
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+
+    /* Centering vertically */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #555; /* Darker input borders */
+    border-radius: 5px;
+    background-color: #444; /* Dark background for input fields */
+    color: white; /* White text in inputs */
+}
+
+form input::placeholder {
+    color: #ccc; /* Lighter color for placeholder text */
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+}
+
+/* Hover effect for button */
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Right label for "Forget password?" */
+.right-label {
+    float: right;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    color: white; /* White footer text */
+}
+
+/* Overall background for the page */
+body {
+    background-color: #222; /* Darker overall page background */
+    color: white; /* Default text color set to white */
+}
+
